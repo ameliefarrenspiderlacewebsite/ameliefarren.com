@@ -1,7 +1,14 @@
 title: "Amelie Farren"
 description: "Official Website"
-baseurl: "" # Leave blank for GitHub Pages root
+baseurl: "/ameliefarren.com"
 url: "https://ameliefarrenspiderlacewebsite.github.io" # Replace if using custom domain
 
 plugins:
   - jekyll-feed
+
+sass:
+  style: compressed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
