@@ -1,0 +1,38 @@
+title: Amelie Farren
+description: Official site of Amelie Farren — music, tour dates, and digital scrapbook.
+baseurl: "" # Use "" if deploying to root domain (GitHub Pages main site)
+url: "http://localhost:4000"
+
+# Social handles (optional)
+twitter_username: ameliefarren
+github_username:  yourusername
+
+# Exclude default theme and use custom layouts
+# theme: minima
+
+# Plugins (you can add jekyll-seo-tag, jekyll-sitemap later)
+plugins:
+  - jekyll-feed
+
+# Output settings
+markdown: kramdown
+permalink: pretty
+
+# Include these folders for Jekyll processing
+include:
+  - _pages
+
+# Collections (optional: for poems or blog-like posts)
+# collections:
+#   poems:
+#     output: true
+#     permalink: /scrapbook/:name
+
+# Defaults (optional styling per collection)
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "default"
+      author: "Amelie Farren"
