@@ -7,7 +7,6 @@ plugins:
   - jekyll-feed
 
 sass:
-  sass_dir: assets
   style: compressed
 
 exclude:
