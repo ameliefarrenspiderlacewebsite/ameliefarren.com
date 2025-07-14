@@ -1,9 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-  {% include head.html %}
-  <body>
-    {% include header.html %}
+<head>
+  <meta charset="UTF-8" />
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/assets/css/main.css" />
+  <link rel="stylesheet" href="https://use.typekit.net/YOUR-TYPEKIT-ID.css" /> <!-- Optional -->
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="/">Music</a></li>
+        <li><a href="/tour.html">Tour</a></li>
+        <li><a href="/scrapbook.html">Scrapbook</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
     {{ content }}
-    {% include footer.html %}
-  </body>
+  </main>
+
+  <footer>
+    <p>&copy; Amelie Farren 2025</p>
+  </footer>
+</body>
 </html>
